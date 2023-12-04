@@ -286,14 +286,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/etc/audio_param_global/VolumeGainMap_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VolumeGainMap_ParamUnitDesc.xml \
     vendor/xiaomi/light/proprietary/vendor/etc/audio_param_global/Volume_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/Volume_AudioParam.xml \
     vendor/xiaomi/light/proprietary/vendor/etc/audio_param_global/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/Volume_ParamUnitDesc.xml \
-    vendor/xiaomi/light/proprietary/vendor/etc/camera/CFR_para_Macro_i.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_Macro_i.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/camera/CFR_para_Macro_ii.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_Macro_ii.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/camera/CFR_para_Wide_H_i.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_Wide_H_i.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/camera/CFR_para_Wide_H_ii.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_Wide_H_ii.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/camera/CFR_para_Wide_i.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_Wide_i.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/camera/CFR_para_Wide_ii.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_Wide_ii.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/camera/golden_ov48b_i_gc02m1b_i.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_ov48b_i_gc02m1b_i.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/camera/golden_ov48b_ii_gc02m1b_ii.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_ov48b_ii_gc02m1b_ii.bin \
+    vendor/xiaomi/light/proprietary/etc/camera/golden_hi1337_i_ov02b1b_i.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_hi1337_i_ov02b1b_i.bin \
+    vendor/xiaomi/light/proprietary/vendor/etc/camera/golden_hi1337_ii_sc201cs_ii.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_hi1337_ii_sc201cs_ii.bin \
+    vendor/xiaomi/light/proprietary/vendor/etc/camera/golden_ov50c40_i_ov02b1b_i.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_ov50c40_i_ov02b1b_i.bin \
+    vendor/xiaomi/light/proprietary/vendor/etc/camera/golden_ov50c40_ii_sc201cs_ii.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_ov50c40_ii_sc201cs_ii.bin \
+    vendor/xiaomi/light/proprietary/vendor/etc/camera/golden_s5kjn1_iii_ov02b1b_i.bin$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_s5kjn1_iii_ov02b1b_i.bin \
     vendor/xiaomi/light/proprietary/vendor/etc/camera/mibokeh_mt6853_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mibokeh_mt6853_opencl.bin \
     vendor/xiaomi/light/proprietary/vendor/etc/camera/mibokeh_mt6853_parameter.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mibokeh_mt6853_parameter.bin \
     vendor/xiaomi/light/proprietary/vendor/etc/camera/sr_params.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sr_params.xml \
@@ -378,7 +375,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/etc/seccomp_policy/mediaswcodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaswcodec.policy \
     vendor/xiaomi/light/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
     vendor/xiaomi/light/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
-    vendor/xiaomi/light/proprietary/vendor/firmware/st21nfc_conf.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_conf.txt \
     vendor/xiaomi/light/proprietary/vendor/etc/thermal-arvr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-arvr.conf \
     vendor/xiaomi/light/proprietary/vendor/etc/thermal-camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-camera.conf \
     vendor/xiaomi/light/proprietary/vendor/etc/thermal-chg-only.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-chg-only.conf \
@@ -399,11 +395,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/firmware/WIFI_RAM_CODE_soc2_2_1_1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_soc2_2_1_1.bin \
     vendor/xiaomi/light/proprietary/vendor/firmware/WIFI_RAM_CODE_soc2_2_1a_1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_soc2_2_1a_1.bin \
     vendor/xiaomi/light/proprietary/vendor/firmware/WMT_SOC.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/WMT_SOC.cfg \
-    vendor/xiaomi/light/proprietary/vendor/firmware/aw87559_pid_5a_fm_0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87559_pid_5a_fm_0.bin \
-    vendor/xiaomi/light/proprietary/vendor/firmware/aw87559_pid_5a_music_0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87559_pid_5a_music_0.bin \
-    vendor/xiaomi/light/proprietary/vendor/firmware/aw87559_pid_5a_off_0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87559_pid_5a_off_0.bin \
-    vendor/xiaomi/light/proprietary/vendor/firmware/aw87559_pid_5a_rcv_0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87559_pid_5a_rcv_0.bin \
-    vendor/xiaomi/light/proprietary/vendor/firmware/aw87559_pid_5a_voice_0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87559_pid_5a_voice_0.bin \
     vendor/xiaomi/light/proprietary/vendor/firmware/aw87xxx_vmax_0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87xxx_vmax_0.bin \
     vendor/xiaomi/light/proprietary/vendor/firmware/awinic_params.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/awinic_params.bin \
     vendor/xiaomi/light/proprietary/vendor/firmware/fm_cust.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/fm_cust.cfg \
