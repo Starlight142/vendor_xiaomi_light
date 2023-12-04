@@ -285,7 +285,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/etc/audio_param_global/VolumeGainMap_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VolumeGainMap_ParamUnitDesc.xml \
     vendor/xiaomi/light/proprietary/vendor/etc/audio_param_global/Volume_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/Volume_AudioParam.xml \
     vendor/xiaomi/light/proprietary/vendor/etc/audio_param_global/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/Volume_ParamUnitDesc.xml \
-    vendor/xiaomi/light/proprietary/etc/camera/golden_hi1337_i_ov02b1b_i.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_hi1337_i_ov02b1b_i.bin \
+    vendor/xiaomi/light/proprietary/vendor/etc/camera/golden_hi1337_i_ov02b1b_i.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_hi1337_i_ov02b1b_i.bin \
     vendor/xiaomi/light/proprietary/vendor/etc/camera/golden_hi1337_ii_sc201cs_ii.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_hi1337_ii_sc201cs_ii.bin \
     vendor/xiaomi/light/proprietary/vendor/etc/camera/golden_ov50c40_i_ov02b1b_i.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_ov50c40_i_ov02b1b_i.bin \
     vendor/xiaomi/light/proprietary/vendor/etc/camera/golden_ov50c40_ii_sc201cs_ii.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_ov50c40_ii_sc201cs_ii.bin \
