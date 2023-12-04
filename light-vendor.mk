@@ -290,7 +290,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/etc/camera/golden_hi1337_ii_sc201cs_ii.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_hi1337_ii_sc201cs_ii.bin \
     vendor/xiaomi/light/proprietary/vendor/etc/camera/golden_ov50c40_i_ov02b1b_i.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_ov50c40_i_ov02b1b_i.bin \
     vendor/xiaomi/light/proprietary/vendor/etc/camera/golden_ov50c40_ii_sc201cs_ii.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_ov50c40_ii_sc201cs_ii.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/camera/golden_s5kjn1_iii_ov02b1b_i.bin$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_s5kjn1_iii_ov02b1b_i.bin \
+    vendor/xiaomi/light/proprietary/vendor/etc/camera/golden_s5kjn1_iii_ov02b1b_i.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_s5kjn1_iii_ov02b1b_i.bin \
     vendor/xiaomi/light/proprietary/vendor/etc/camera/mibokeh_mt6853_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mibokeh_mt6853_opencl.bin \
     vendor/xiaomi/light/proprietary/vendor/etc/camera/mibokeh_mt6853_parameter.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mibokeh_mt6853_parameter.bin \
     vendor/xiaomi/light/proprietary/vendor/etc/camera/sr_params.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sr_params.xml \
